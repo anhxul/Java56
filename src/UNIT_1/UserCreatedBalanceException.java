@@ -1,3 +1,5 @@
+package UNIT_1;
+
 public class UserCreatedBalanceException {
     private int balance = 10000;
 

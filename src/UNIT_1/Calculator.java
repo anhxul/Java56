@@ -1,3 +1,5 @@
+package UNIT_1;
+
 import java.util.*;
 
 
@@ -7,10 +9,11 @@ public class Calculator {
         Scanner sc=new Scanner(System.in);
         int x,y,z=0;
         System.out.println("Enter any two numbers: ");
-        x=sc.nextInt();
-        y=sc.nextInt();
+
 
         try{
+            x=sc.nextInt();
+            y=sc.nextInt();
             z=x/y;
             System.out.println("Exception NOT occurs");
         }

@@ -1,3 +1,5 @@
+package UNIT_1;
+
 public class MyATM {
     public static void main(String[] args) {
         UserCreatedBalanceException UBE = new UserCreatedBalanceException();

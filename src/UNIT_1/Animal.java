@@ -1,3 +1,5 @@
+package UNIT_1;
+
 public class Animal {
     String color;
     int age;

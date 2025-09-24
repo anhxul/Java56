@@ -1,3 +1,5 @@
+package UNIT_3;
+
 import java.util.Scanner;
 
 public class ArrayAddition {
@@ -13,14 +15,14 @@ public class ArrayAddition {
 
             }
         }
-        System.out.println("Enter the elements you want to add to the array B :");
+        System.out.println("Enter the elements you want to add to the array UNIT_1.B :");
         for(int i=0;i<a.length;i++){
             for(int j=0;j<b[i].length;j++){
                 b[i][j]=sc.nextInt();
 
             }
         }
-        System.out.println("Addition of array A and B :");
+        System.out.println("Addition of array A and UNIT_1.B :");
         for(int i=0;i<a.length;i++){
             for(int j=0;j<a[i].length;j++){
                 c[i][j]=a[i][j]+b[i][j];

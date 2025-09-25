@@ -8,7 +8,7 @@ public class StudentsAsObjects {
         List<StudentComparator> students = new ArrayList<>();
 
         students.add(new StudentComparator(21, "Anshu", 101));
-        students.add(new StudentComparator(19, "Rahul", 102));
+        students.add(new StudentComparator(19, "", 102));
         students.add(new StudentComparator(20, "Priya", 103));
         students.add(new StudentComparator(21, "Divya", 104));
         students.add(new StudentComparator(22, "Shabeena", 105));

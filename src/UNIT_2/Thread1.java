@@ -9,7 +9,7 @@ public class Thread1 extends Thread {
 
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
 
     }
